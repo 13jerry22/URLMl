@@ -1,0 +1,51 @@
+                                             Text Analysis
+
+(1)POSITIVE SCORE: This variable likely to be represents the positivity or positive sentiment expressed in the text. It could be a score indicating the strength or degree of positive sentiment.
+
+(2)NEGATIVE SCORE: This variable likely to be represents the negativity or negative sentiment expressed in the text. Similar to the positive score, it could indicate the strength or degree of negative sentiment.
+
+(3)POLARITY SCORE: This variable likely to be represents the overall polarity of the text, combining both positive and negative sentiments. It could be calculated as the difference between the positive and negative scores.
+
+(4)SUBJECTIVITY SCORE: This variable represents to be  subjectivity of the text, indicating how subjective or opinionated the text is. It could be calculated based on the presence of subjective language or expressions.
+
+(5)AVG SENTENCE LENGTH: This variable represents the average length of a sentences in the text, typically measured in terms of the number of words per sentence.
+
+(6)PERCENTAGE OF COMPLEX WORDS: This variable represents a proportion of complex words in the text. Complex words could be defined based on factors such as syllable count or lexical complexity.
+
+(7)FOG INDEX: This variable represents the readability of the text, calculated based on the average sentence length and the percentage of complex words. It provides an estimate of the reading difficulty of the text.
+
+(8)AVG NUMBER OF WORDS PER SENTENCE: This variable represents the average number of a words per sentence in the text. It is related to the average sentence length but focuses specifically on word count.
+
+(9)COMPLEX WORD COUNT: This variable represents the total count of complex words in the text. Complex words are typically defined based on factors such as syllable count or lexical complexity.
+
+(10)WORD COUNT: This variable represents the total count of words in the text.
+
+(11)SYLLABLE PER WORD: This variable represents the average number of syllables per word in the text. It provides an indication of the complexity or phonetic structure of words used in the text.
+
+(12)PERSONAL PRONOUNS: This variable represents the count of personal pronouns (e.g., I, you, he, she, we, they) used in the text. It provides insights into the narrative style or perspective of the text.
+
+(13)AVG WORD LENGTH: This variable represents the average length of words in the text, typically measured in terms of the number of characters per word.
+
+
+
+
+
+
+
+
+Lis of dependency in this assignments are:
+(1)import pandas as pd:for data manipultion
+(2)import requests:It abstracts the complexities of making requests behind a beautiful, simple API so that you can focus on interacting with services and consuming data in your application
+(3)from bs4 import BeautifulSoup:for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree. It commonly saves programmers hours or days of work.
+(4)NLTK (Natural Language Toolkit) is a powerful library in Python used for natural language processing (NLP). It provides easy-to-use interfaces to over 50 corpora and lexical resources, such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning.
+Here are some common tasks for which NLTK is used:
+Tokenization: Breaking text into individual words or sentences.
+Stopword Removal: Filtering out common words in that perticular data that are given to user to find the anlysis that do not carry much information.the, is, and are some example of stopward removal.
+Stemming and Lemmatization: Reducing words to their base or root form.
+Part-of-Speech (POS) Tagging: Assigning grammatical tags to words---noun, verb, adjective are the example of the part of speech
+Named Entity Recognition (NER): Identifying entities such as names, locations, and dates in text.
+Sentiment Analysis: Determining the sentiment or emotion expressed in text.
+Word Frequency Analysis: Counting the occurrences of words in a text.
+Parsing: Analyzing the structure of sentences to understand their grammatical relationships.
+(5)nltk.probability:This module is used for frequency distribution analysis. It allows you to count the occurrences of each element in a list or sequence, such as words in a text.
+(6)nltk.sentiment:This module is used for sentiment analysis. It provides a pre-trained model that can assess the sentiment of a piece of text (e.g., positive, negative, neutral) by analyzing the intensity of positive and negative words in the text.
